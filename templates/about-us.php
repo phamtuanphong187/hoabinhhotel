@@ -35,10 +35,10 @@ $list_image = get_field("list_image");
         <section id=''>
             <div class="container-fluid">
                 <div class="row first-section">
-                    <div class="section-right text-right col-xl-7 col-12">
+                    <div class="section-left text-right col-xl-7 col-12">
                         <img  class="image" src="<?php echo $image_2['url']?>" />
                     </div>
-                    <div class="section-left col-xl-5 col-12">
+                    <div class="section-right col-xl-5 col-12">
                         <div class="inner">
                             <h2 class="title"><?php echo $title_2 ?></h2>
                             <h2 class="main-title"><?php echo $main_title_2 ?></h2>
