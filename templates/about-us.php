@@ -16,7 +16,7 @@ $list_image = get_field("list_image");
 ?>
 <div class="template-about-us">
     <div class="content-about-us">
-        <section id=''>
+        <section id='' class="section-contain section-contain-1">
             <div class="container-fluid">
                 <div class="row first-section">
                     <div class="section-left col-xl-5 col-12">
@@ -32,7 +32,7 @@ $list_image = get_field("list_image");
                 </div>
             </div>
         </section>
-        <section id=''>
+        <section id='' class="section-contain section-contain-2">
             <div class="container-fluid">
                 <div class="row first-section">
                     <div class="section-left text-right col-xl-7 col-12">
@@ -48,8 +48,8 @@ $list_image = get_field("list_image");
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container-fluid">
+        <section class="section-contain-3">
+            <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="inner">
@@ -61,7 +61,7 @@ $list_image = get_field("list_image");
                 </div>
             </div>
         </section>
-        <section>
+        <section class="section-slide">
             <div class="slide-image-contain">
                 <div class="swiper slide-list-image">
                     <div class="swiper-wrapper">
